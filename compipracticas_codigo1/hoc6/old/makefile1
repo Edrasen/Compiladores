@@ -1,8 +1,0 @@
-YFLAGS   =   -d
-hoc6:  $(Gram) code.c  init.c  symbol.c ytab.c
-     @gcc      -o code.c  init.c  symbol.c ytab.c -lm 
-     @echo Compiled
-rm -f $(OBJS) [xy].tab.[ch]
-
-
-

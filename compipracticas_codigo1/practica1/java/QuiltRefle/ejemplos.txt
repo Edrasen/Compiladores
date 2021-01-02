@@ -1,9 +1,0 @@
-A
-B
-rota ( A )
-rota ( rota ( A ) )
-rota ( rota ( rota ( A ) ) ) 
-cose ( A , rota ( rota ( rota ( A ) ) ) )
-cose ( cose ( A , rota ( rota ( rota ( A ) ) ) ) , cose ( A , rota ( rota ( rota ( A ) ) ) ) )
-cose ( cose ( cose ( A , rota ( rota ( rota ( A ) ) ) ) , cose ( A , rota ( rota ( rota ( A ) ) ) ) ) , cose ( cose ( A , rota ( rota ( rota ( A ) ) ) ) , cose ( A , rota ( rota ( rota ( A ) ) ) ) ) )
-
