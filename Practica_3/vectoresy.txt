@@ -9,13 +9,14 @@ Materia: Compiladores
 ****************************************/
 
 %{
-#include "vectores.h"
+#include "hoc.h"
 
 void yyerror (char *s);
 int yylex ();
 void warning(char *s, char *t);
 void execerror(char *s, char *t);
 void fpecatch();
+extern void init();
 
 %}
 
