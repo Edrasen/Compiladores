@@ -48,27 +48,30 @@ extern int yydebug;
     NUMBER = 258,
     VAR = 259,
     INDEF = 260,
-    UNARYMINUS = 261
+    VECT = 261,
+    NUMB = 262
   };
 #endif
 /* Tokens.  */
 #define NUMBER 258
 #define VAR 259
 #define INDEF 260
-#define UNARYMINUS 261
+#define VECT 261
+#define NUMB 262
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 
 union YYSTYPE
 {
-#line 23 "vectores.y" /* yacc.c:1909  */
+#line 19 "vector.y" /* yacc.c:1909  */
 
-    Vector *vector;
-    double numero;
-    Symbol *sym;
+	double num;
+	Vector *val;
+	Inst *inst;
+	Symbol *sym;
 
-#line 72 "y.tab.h" /* yacc.c:1909  */
+#line 75 "y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;

@@ -13,17 +13,6 @@ struct vector {
 };
 typedef struct vector Vector;
 
-typedef struct Symbol { /* entrada de la tabla de símbolos */
-	char   *name;
-	short   type;   /* VAR, BLTIN, UNDEF */
-	union {
-		Vector *val;	       /* si es VAR */
-	} u;
-	struct Symbol   *next;  /* para ligarse a otro */ 
-} Symbol;
-
-Symbol *install(char *,int, Vector *); 
-Symbol *lookup(char *s);
 Vector *creaVector(int n, double dato);
 void imprimeVector(Vector *a);
 Vector *unirVectores(Vector *a, Vector *b);
