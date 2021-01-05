@@ -284,7 +284,7 @@ final static String yyrule[] = {
 "inst : COLOR NUMBER",
 };
 
-//#line 72 "forma.y"
+//#line 71 "forma.y"
 
 class Algo {
 	Simbolo simb;
@@ -551,7 +551,6 @@ break;
 case 6:
 //#line 40 "forma.y"
 { 
-          
          maq.code("constpush");
          maq.code(((Algo)val_peek(3).obj).simb);
 
@@ -568,7 +567,7 @@ case 6:
          }
 break;
 case 7:
-//#line 57 "forma.y"
+//#line 56 "forma.y"
 { 
             maq.code("constpush");
             maq.code(((Algo)val_peek(2).obj).simb); 
@@ -582,11 +581,11 @@ case 7:
             maq.code("circulo");}
 break;
 case 8:
-//#line 69 "forma.y"
+//#line 68 "forma.y"
 { maq.code("constpush");
                 maq.code(((Algo)val_peek(0).obj).simb); maq.code("color");}
 break;
-//#line 513 "Parser.java"
+//#line 512 "Parser.java"
 //########## END OF USER-SUPPLIED ACTIONS ##########
     }//switch
     //#### Now let's reduce... ####

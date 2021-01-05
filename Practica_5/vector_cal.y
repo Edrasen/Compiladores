@@ -33,7 +33,7 @@
 
 %type<inst> exp asgn
 
-//NUEVOS SÍMBOLOS GRAMATICALES PARA LA PRÁCTICA 5
+/*NUEVOS SÍMBOLOS GRAMATICALES PARA LA PRÁCTICA 5*/
 %token<sym>     PRINT WHILE IF ELSE BLTIN
 %type<inst>     stmt stmtlst cond while if end    
 
