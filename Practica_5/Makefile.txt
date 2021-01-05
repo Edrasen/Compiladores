@@ -1,7 +1,7 @@
 Gram=y.tab.c y.tab.h
 
-all: $(Gram) vector_cal.c symbol.c
-	@gcc -o vect y.tab.c vector_cal.c symbol.c code.c init.c -lm -w
+all: $(Gram) vector_cal.c hoc.c
+	@gcc -o vect y.tab.c vector_cal.c hoc.c code.c init.c -lm -w
 	@echo Compiled
 
 vector_cal.c:
