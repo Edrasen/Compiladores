@@ -1,5 +1,5 @@
 /*
-Miranda Sandoval Mario Alberto 
+Ramos Mesas Edgar Alain
 3CM7.
 */
 #include <stdio.h>
